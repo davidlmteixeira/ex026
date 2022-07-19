@@ -4,11 +4,37 @@
 
 @media print { /*IMPRESSÃO*/
     
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    body {
+        background-image: url(../imagens/print.jpg); 
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
     body {
         background-image: url(../imagens/tablet.jpg);
+    }
+
+    main {
+        width: 700px;
     }
 
     img#phone {display: none;}
@@ -23,6 +49,10 @@
         background-image: url(../imagens/desktop.jpg);
     }
 
+    main {
+        width: 700px;
+    }
+
     img#phone {display: none;}
     img#tablet {display: none;}
     img#print {display: none;}
@@ -33,6 +63,10 @@
 @media screen and (min-width: 1200px) { /*GRANDES TELAS*/
     body{
         background-image: url(../imagens/tv.jpg);
+    }
+
+    main {
+        width: 700px;
     }
 
     img#phone {display: none;}
