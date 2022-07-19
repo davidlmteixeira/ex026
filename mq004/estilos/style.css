@@ -15,14 +15,14 @@ html {
 }
 
 body {
-    background: black url(../imagens/icon_desktop.png) no-repeat;
+    background: black url(../imagens/smartphone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 main {
     background-color: rgba(255,255,255, 0.842);
-    width: 80vh;
+    width: 60vh;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
